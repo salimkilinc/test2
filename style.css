@@ -1,0 +1,40 @@
+.box {
+    height: 1000px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20vh;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #FFF67E, #9BCF53, #BFEA7C);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    opacity: 0.9;
+}
+
+.ms-3 {
+    height: 2.5vh;
+    width: 2.5vh;
+}
